@@ -13,14 +13,8 @@ class Solution {
         String s=sentences[i];
         String[]str=s.split(" ");
         int maxi=str.length;
-        max=Math.max(maxi,max);
-
-
-        
-
+        max=Math.max(maxi,max);  
     }
     return max;
-
-    
     }
 }
